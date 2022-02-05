@@ -11,6 +11,7 @@ body {
 
 nav {
   position: fixed;
+  display: block;
   top: 0;
   width: 100%;
   justify-content: space-around;
@@ -33,7 +34,7 @@ nav {
 }
 
 #buttonNav {
-  font-size: 2vh;
+  font-size: max(2vh, 16px);
   color: rgba(53, 56, 71, 0.842);
   padding: 10px;
   border: solid 2px #1e2c30e5;
@@ -50,6 +51,7 @@ nav {
   margin: 5%;
   display: flex;
   padding-top: 13vh;
+  padding-top: max(9vh, 99px);
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -64,6 +66,9 @@ nav {
   text-decoration: none;
   list-style: none;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 1%;
   padding: 10px;
   width: 400px;
@@ -85,4 +90,11 @@ nav {
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 550px) {
+  .links li {
+    width: 400px;
+    height: 100px;
+  }
 }
