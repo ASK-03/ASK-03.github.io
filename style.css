@@ -48,10 +48,8 @@ nav {
 }
 
 .links {
-  margin: 5%;
   display: flex;
-  padding-top: 13vh;
-  padding-top: max(9vh, 99px);
+  margin-top: max(10vh, 110px);
   align-items: center;
   justify-content: center;
   flex-direction: column;
