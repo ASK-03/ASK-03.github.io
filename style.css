@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #d4d3d3e8;
+  background-color: #000000;
 }
 
 nav {
@@ -35,16 +35,17 @@ nav {
 
 #buttonNav {
   font-size: max(2vh, 16px);
-  color: rgba(53, 56, 71, 0.842);
+  color: #32fee6c5;
   padding: 10px;
-  border: solid 2px #1e2c30e5;
+  border: solid 2px #32fee6c5;
   border-radius: 25%;
+  transition: all 300ms ease-in-out;
 }
 
 #buttonNav:hover {
-  background-color: #04aa6dd7;
+  background-color: #32fee6c5;
   color: #3a3a3a;
-  border-color: #059862d7;
+  border-color: #29ad9ec5;
 }
 
 .links {
@@ -57,7 +58,7 @@ nav {
 
 .links a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000da;
 }
 
 .links li {
@@ -67,32 +68,36 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   padding: 10px;
-  width: 400px;
+  width: 390px;
   font-weight: 900;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
-  background-color: #04aa6d;
+  background-color: #32fee6c5;
   border: solid 1px #1e2c30e5;
   border-radius: 10px;
+  transition: all 300ms ease-in-out;
 }
 
 .links li:hover {
   transform: scale(1.005);
-  background-color: #059862;
+  background-color: #32fee5;
 }
 
 .footer {
+  margin-top: 2.5rem;
   font-family: monospace;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
+  color: #f0ffff;
 }
 
 @media screen and (max-width: 550px) {
   .links li {
-    width: 400px;
-    height: 100px;
+    width: 250px;
+    height: 90px;
   }
 }
