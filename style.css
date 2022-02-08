@@ -38,7 +38,7 @@ nav {
 
 #buttonNav {
   font-size: max(2vh, 16px);
-  color: #32fee6c5;
+  color: #181818d0;
   padding: 10px;
   border: solid 2px #32fee6c5;
   border-radius: 25%;
@@ -87,6 +87,12 @@ nav {
 .links li:hover {
   transform: scale(1.005);
   background-color: #32fee5;
+}
+
+#arrowMenu {
+  border-radius: 25%;
+  background-color: #ffffff00;
+  border: none;
 }
 
 .footer {
